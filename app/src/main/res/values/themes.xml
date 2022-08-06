@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Open" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Open" parent="Base.Theme.Open" />
+
+    <style name="textNormalRegular" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/light_text_color</item>
+    </style>
+
+    <style name="toolBarCustom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="customSeekBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:thumbOffset">12dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="CustomBtmSheetStyle" parent="">
+    </style>
+</resources>

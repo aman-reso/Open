@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/verseOriginalInSanskrit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:padding="4dp"
+    android:textStyle="italic"
+    android:textAlignment="center"
+    android:background="@drawable/bg_corner_8_dp"
+    android:backgroundTint="@color/surface_bg_color"
+    android:minHeight="80dp">
+</TextView>

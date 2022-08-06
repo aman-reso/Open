@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="perfect_black">#000000</color>
+    <color name="perfect_white">#FFFFFFFF</color>
+    <color name="light_text_color">#9c1462</color>
+    <color name="normal_title_color">#262a2c</color>
+    <color name="surface_bg_color">#f6f6f6</color>
+    <color name="btn_action_color">#2950d6</color>
+    <color name="some_black">#25282a</color>
+    <color name="card_background_color">#e2e2e2</color>
+    <color name="red_color">#e95f5e</color>
+    <color name="unselected">#d6d2d5</color>
+    <color name="light_white">#e5e5eb</color>
+</resources>

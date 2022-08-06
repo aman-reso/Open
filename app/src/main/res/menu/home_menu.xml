@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeNavigation"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="@string/home_label"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/exploreNavigation"
+        android:icon="@drawable/ic_outline_explore_24"
+        android:title="@string/explore_label"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settingNavigation"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="@string/setting_label"
+        app:showAsAction="always" />
+
+</menu>

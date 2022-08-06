@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeNavigation">
+
+    <fragment
+        android:id="@+id/homeNavigation"
+        android:name="in.book.repo.open.ui.HomeFragment"
+        android:label="@string/home_label"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/exploreNavigation"
+        android:name="in.book.repo.open.ui.UserDailySessionEngFragment"
+        android:label="@string/explore_label"
+        tools:layout="@layout/user_daily_eng_fragment" />
+
+    <fragment
+        android:id="@+id/settingNavigation"
+        android:name="in.book.repo.open.ui.topic_list.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+</navigation>
